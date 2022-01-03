@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    padding:20px;
+}
+#main{
+    border: 1px solid teal;
+    width:700px;
+    margin: auto;
+    height:500px;
+}
+
+#bar{
+    border: 1px solid coral;
+    margin: 10px;
+    height:30px;
+}
+
+#crt{
+    border: 1px black solid;
+    width:40px;
+    margin: 5px;
+}
+#men{
+    border: red 1px solid;
+    width:650px;
+    margin: auto;
+    height:400px;
+    padding:10px;
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap:5px;
+    justify-content: space-around;
+    overflow: scroll;
+}
+#men>div{
+    border: 1px black solid;
+    height: 200px;
+}
+img{
+    width:100%;
+    height: 70%;
+}
+#men>div>p,button{
+    margin-left: 10px;
+}

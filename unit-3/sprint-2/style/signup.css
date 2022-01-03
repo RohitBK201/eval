@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  #main {
+    border: red 1px solid;
+    width: 95%;
+    margin: auto;
+    height: 400px;
+  }
+  #bar {
+    border: 1px black solid;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+  }
+  #bar > div {
+    border: 1px green solid;
+    height: 20px;
+    padding: 5px;
+    margin-left: 5px;
+  }
+  #sUp {
+    border: coral 1px solid;
+    margin: 5px;
+    height: 80%;
+    display: grid;
+    align-items: center;
+  }
+  #sUp > div {
+    border: 1px blue solid;
+    width: 200px;
+    margin: auto;
+  }
